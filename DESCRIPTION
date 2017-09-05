@@ -1,0 +1,18 @@
+Package: lutilities
+Type: Package
+Title: A Local Utilities, not for publishing to cran
+Version: 0.0.1
+Author: Philip Moss Robinson
+Maintainer: Philip Moss Robinson <pmoss.robinson+R@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: BEERWARE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  grid
+Depends:
+Suggests:
+  tidyverse
+RoxygenNote: 6.0.1
