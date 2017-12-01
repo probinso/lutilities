@@ -1,6 +1,6 @@
 # lutilities
 
-This is a set of operators and trivial functions I use in every `R` program.
+This is a set of operators and trivial functions I use in every `R` program. The major goal of these operators is to extend the infix language from `dplyr`
 
 # Install
 
