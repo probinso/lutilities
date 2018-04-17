@@ -57,7 +57,7 @@ partial = function(f, ...) function(X) f(X, ...)
 #' @param l list of inputs
 #' @param f function to apply accross list
 #' @return list of return values
-#' @usage c(a=1,b=2,c=3) %T>% function(key, x) {return(x ** 2)}
+#' @usage c(a=1,b=2,c=3) %TKV>% function(key, x) {return(x ** 2)}
 '%TKV>%' <- function(li, func) {
   retval <- list()
   for (key in names(li)) {
@@ -65,6 +65,7 @@ partial = function(f, ...) function(X) f(X, ...)
   }
   retval
 }
+                        
 ########################
 
 #' @title draw_rownames
