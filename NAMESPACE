@@ -3,6 +3,7 @@
 export("%&%")
 export("%T%")
 export("%T>%")
+export("%TKV>%")
 export("%ni%")
 export("%|%")
 export(draw_rownames)
